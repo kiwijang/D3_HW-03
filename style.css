@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: #fcf8f8;
+}
+
+.all {
+    display: inline-block;
+    white-space: nowrap;
+    padding: 50px;
+}
+
+.bar{
+    margin-top: 50px; 
+}
+
+.sc {
+    display: inline-block;
+    white-space: nowrap;
+    margin: 50px;
+    padding: 0 20px;
+    font-family: monospace;
+    border-left: 10px solid #072222;
+}
+
+svg text {
+    color: white;
+    font-family: monospace;
+}
+
