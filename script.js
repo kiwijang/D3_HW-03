@@ -54,6 +54,31 @@ var myShoes = {
     forFemale: true,
 };
 
+//<!-- // -->////音符
 
-
+d3.select(".music")
+.append("rect")
+.attr({x:"160", y:"45", width:"5", height:"78"});
+d3.select(".music")
+.append("circle")
+.attr({cx:"150", cy:"120",r:"15"});
+d3.select(".music")
+.append("line")
+.attr({x1:"0", y1:"45", x2:"300", y2:"45", stroke:"black", stroke_width:"2"});
+d3.select(".music")
+.append("line")
+.attr({x1:"0", y1:"75", x2:"300", y2:"75", stroke:"black", stroke_width:"2"});
+d3.select(".music")
+.append("line")
+.attr({x1:"0", y1:"105", x2:"300", y2:"105", stroke:"black", stroke_width:"2"});
+d3.select(".music")
+.append("line")
+.attr({x1:"0", y1:"135", x2:"300", y2:"135", stroke:"black", stroke_width:"2"});
+d3.select(".music")
+.append("line")
+.attr({x1:"0", y1:"165", x2:"300", y2:"165", stroke:"black", stroke_width:"2"});
+d3.select(".music")
+.append("text")
+.attr({x:"140", y:"200"})
+.text("A");
 
